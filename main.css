@@ -1,0 +1,91 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Zen Antique Soft', serif;
+background-color: rgb(224, 217, 212);
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 20px 0;
+    
+}
+.header__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    margin-top: 20px;
+    width: 700px;
+    border: none;
+    padding: 6px;
+    border-radius: 20px;
+    
+}
+.text{
+    font-size: 40px;
+}
+select{
+    margin-top: 20px;
+    width: 700px;
+    border: none;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: white;
+}
+.submit{
+    width: 190px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+
+}
+.col img{
+    width: 250px;
+}
+.col{
+    width: 270px;
+    margin-top: 20px;
+    padding: 20px 10px;
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background-color: rgb(139, 23, 139);
+    border:none;
+    border-radius:20px;
+    margin-top: 10px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
